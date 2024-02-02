@@ -72,24 +72,42 @@ def parse_data(input_data):
         }
 
         table_data = []
+        current_metric = None
         current_description = []
+        
         for item in entry["tableData"]:
-            if pd.notna(item["metricNo"]):
-                if current_description:
-                    table_data[-1]["description"] = current_description
-                    current_description = []
-                parsed_item = {
-                    "metricNo": item["metricNo"],
-                    "description": item["description"]
-                }
-                if "link" in item:
-                    parsed_item["link"] = item["link"]
-                table_data.append(parsed_item)
+            metric = item["metricNo"]
+            
+            # Check if the metric number is not NaN
+            if pd.notna(metric):
+                # If there is a current metric and description,
+                # add them to the table data
+                if current_metric is not None and current_description:
+                    parsed_item = {
+                        "metricNo": current_metric,
+                        "description": current_description
+                    }
+                    # Add the parsed item to the table data
+                    if "link" in item:
+                        parsed_item["link"] = item["link"]
+                    table_data.append(parsed_item)
+                
+                # Reset the current metric and description
+                current_metric = metric
+                current_description = [item["description"]]
             else:
+                # Append the description to the current description list
                 current_description.append(item["description"])
 
-        if current_description:
-            table_data[-1]["description"] = current_description
+        # Add the last item to table data if there's any
+        if current_metric is not None and current_description:
+            parsed_item = {
+                "metricNo": current_metric,
+                "description": current_description
+            }
+            if "link" in item:
+                parsed_item["link"] = item["link"]
+            table_data.append(parsed_item)
 
         parsed_entry["tableData"] = table_data
         parsed_data.append(parsed_entry)

@@ -6,17 +6,23 @@
         "tableData": [
             {
                 "metricNo": "1.1.1",
-                "description": "The Institution ensures effective curriculum delivery through a well-planned and documented process",
-                "link": "https://naac.vips.edu/Naac%201/sub-criteria/sub-criteria-1.1.1.pdf"
-            },
-            {
-                "metricNo": "1.1.2",
-                "description": "The institution adheres to the academic calendar, including for the conduct of CIE",
+                "description": [
+                    "The Institution ensures effective curriculum delivery through a well-planned and documented process"
+                ],
                 "link": "https://naac.vips.edu/Naac%201/sub-criteria/sub-criteria-1.1.2.pdf"
             },
             {
+                "metricNo": "1.1.2",
+                "description": [
+                    "The institution adheres to the academic calendar, including for the conduct of CIE"
+                ],
+                "link": "https://naac.vips.edu/Naac%201/sub-criteria/sub-criteria-1.1.3.pdf"
+            },
+            {
                 "metricNo": "1.1.3",
-                "description": "Teachers of the Institution participate in the following activities related to curriculum development and assessment of the affiliating University and/or are represented on the following academic bodies during the last five years",
+                "description": [
+                    "Teachers of the Institution participate in the following activities related to curriculum development and assessment of the affiliating University and/or are represented on the following academic bodies during the last five years"
+                ],
                 "link": "https://naac.vips.edu/Naac%201/sub-criteria/sub-criteria-1.1.3.pdf"
             }
         ]
@@ -28,27 +34,37 @@
         "tableData": [
             {
                 "metricNo": "1.2.1",
-                "description": "Percentage of Programmes in which Choice Based Credit System (CBCS)/ elective course system has been implemented",
-                "link": "https://naac.vips.edu/Naac%201/sub-criteria/sub-criteria-1.2.1.pdf"
-            },
-            {
-                "metricNo": "1.2.2",
-                "description": "Number of Add on /Certificate programs offered during the last five years",
+                "description": [
+                    "Percentage of Programmes in which Choice Based Credit System (CBCS)/ elective course system has been implemented"
+                ],
                 "link": "https://naac.vips.edu/Naac%201/sub-criteria/sub-criteria-1.2.2.pdf"
             },
             {
-                "metricNo": "1.2.2(i)",
-                "description": "Add on /Certificate programs offered during the last five years",
+                "metricNo": "1.2.2",
+                "description": [
+                    "Number of Add on /Certificate programs offered during the last five years"
+                ],
                 "link": "https://naac.vips.edu/Naac%201/sub-criteria/sub-criteria-1.2.2_(i).pdf"
             },
             {
-                "metricNo": "1.2.2(ii)",
-                "description": "List of Value Added Courses",
+                "metricNo": "1.2.2(i)",
+                "description": [
+                    "Add on /Certificate programs offered during the last five years"
+                ],
                 "link": "https://naac.vips.edu/Naac%201/sub-criteria/sub-criteria-1.2.2_(ii).pdf"
             },
             {
+                "metricNo": "1.2.2(ii)",
+                "description": [
+                    "List of Value Added Courses"
+                ],
+                "link": "https://naac.vips.edu/Naac%201/sub-criteria/sub-criteria-1.2.3.pdf"
+            },
+            {
                 "metricNo": "1.2.3",
-                "description": "Average percentage of students enrolled in Add-on/Certificate programs as against the total number of students during the last five years",
+                "description": [
+                    "Average percentage of students enrolled in Add-on/Certificate programs as against the total number of students during the last five years"
+                ],
                 "link": "https://naac.vips.edu/Naac%201/sub-criteria/sub-criteria-1.2.3.pdf"
             }
         ]
@@ -60,37 +76,51 @@
         "tableData": [
             {
                 "metricNo": "1.3.1",
-                "description": "Institution integrates crosscutting issues relevant to Professional Ethics, Gender, Human Values, Environment and Sustainability into the Curriculum",
-                "link": "https://naac.vips.edu/Naac%201/sub-criteria/sub-criteria-1.3.1.pdf"
-            },
-            {
-                "metricNo": "1.3.1(i)",
-                "description": "List and Description of courses which address the Professional Ethics, Gender, Human Values, Environment and Sustainability into the Curriculum",
+                "description": [
+                    "Institution integrates crosscutting issues relevant to Professional Ethics, Gender, Human Values, Environment and Sustainability into the Curriculum"
+                ],
                 "link": "https://naac.vips.edu/Naac%201/sub-criteria/sub-criteria-1.3.1_(i).pdf"
             },
             {
-                "metricNo": "1.3.1(ii)",
-                "description": "Institution integrates crosscutting issues relevant to Professional Ethics, Gender, Human Values, Environment and Sustainability",
+                "metricNo": "1.3.1(i)",
+                "description": [
+                    "List and Description of courses which address the Professional Ethics, Gender, Human Values, Environment and Sustainability into the Curriculum"
+                ],
                 "link": "https://naac.vips.edu/Naac%201/sub-criteria/sub-criteria-1.3.1_(ii).pdf"
             },
             {
-                "metricNo": "1.3.2",
-                "description": "Average percentage of courses that include experiential learning through project work/field work/internship during last five years 1.3.2.1: Number of courses that include experiential learning through project work/field work/internship year wise during last five years",
+                "metricNo": "1.3.1(ii)",
+                "description": [
+                    "Institution integrates crosscutting issues relevant to Professional Ethics, Gender, Human Values, Environment and Sustainability"
+                ],
                 "link": "https://naac.vips.edu/Naac%201/sub-criteria/sub-criteria-1.3.2.pdf"
             },
             {
-                "metricNo": "1.3.2(i)",
-                "description": "Courses that include experiential learning through project work/field work/internship",
+                "metricNo": "1.3.2",
+                "description": [
+                    "Average percentage of courses that include experiential learning through project work/field work/internship during last five years 1.3.2.1: Number of courses that include experiential learning through project work/field work/internship year wise during last five years"
+                ],
                 "link": "https://naac.vips.edu/Naac%201/sub-criteria/sub-criteria-1.3.2_(i).pdf"
             },
             {
-                "metricNo": "1.3.2(ii)",
-                "description": "Experiential learning through project work/field work",
+                "metricNo": "1.3.2(i)",
+                "description": [
+                    "Courses that include experiential learning through project work/field work/internship"
+                ],
                 "link": "https://naac.vips.edu/Naac%201/sub-criteria/sub-criteria-1.3.2_(ii).pdf"
             },
             {
+                "metricNo": "1.3.2(ii)",
+                "description": [
+                    "Experiential learning through project work/field work"
+                ],
+                "link": "https://naac.vips.edu/Naac%201/sub-criteria/sub-criteria-1.3.3.pdf"
+            },
+            {
                 "metricNo": "1.3.3",
-                "description": "Percentage of students undertaking project work/field work / internship (Data for the latest completed academic year)",
+                "description": [
+                    "Percentage of students undertaking project work/field work / internship (Data for the latest completed academic year)"
+                ],
                 "link": "https://naac.vips.edu/Naac%201/sub-criteria/sub-criteria-1.3.3.pdf"
             }
         ]
@@ -103,26 +133,33 @@
             {
                 "metricNo": "1.4.1",
                 "description": [
+                    "Institution obtains feedback on the syllabus and its transaction at the institution from the following stakeholders",
                     "1. Students",
                     "2. Teachers",
                     "3. Employers",
                     "4. Alumni"
                 ],
-                "link": ""
-            },
-            {
-                "metricNo": "1.4.1(i)",
-                "description": "Stakeholder Feedback Report",
                 "link": "https://naac.vips.edu/Naac%201/sub-criteria/sub-criteria-1.4.1_(i).pdf"
             },
             {
-                "metricNo": "1.4.1(ii)",
-                "description": "Stakeholder Feedback Forms",
+                "metricNo": "1.4.1(i)",
+                "description": [
+                    "Stakeholder Feedback Report"
+                ],
                 "link": "https://naac.vips.edu/Naac%201/sub-criteria/sub-criteria-1.4.1_(ii).pdf"
             },
             {
+                "metricNo": "1.4.1(ii)",
+                "description": [
+                    "Stakeholder Feedback Forms"
+                ],
+                "link": "https://naac.vips.edu/Naac%201/sub-criteria/sub-criteria-1.4.2.pdf"
+            },
+            {
                 "metricNo": "1.4.2",
-                "description": "Feedback Process of the Institution.",
+                "description": [
+                    "Feedback Process of the Institution."
+                ],
                 "link": "https://naac.vips.edu/Naac%201/sub-criteria/sub-criteria-1.4.2.pdf"
             }
         ]
